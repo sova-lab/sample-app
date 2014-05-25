@@ -2,13 +2,20 @@
 	'use strict';
 
 	define([
-		'marionette'
+		'marionette',
+		'views/items/sideItemView'
 	],
-	function( Marionette, MainLayout, HeaderItemView, DashboardTableView, DashboardTableListView, GroupsCompositeView, GroupEditItemView, GroupAddMemberCompositeView, GroupCreateCompositeView, BoardsCompositeView, BoardCreateItemView, BoardDetailCompositeView, AccountItemView, MarkdownHelpItemView, User, Group ) {
+	function( Marionette, SideItemView ) {
 
 		return Marionette.Controller.extend({
 
 			initialize: function( options ) {
+				this.sizeRegion = options.sideRegion;
+				this.tweetRegion = options.tweetRegion;
+			},
+
+			index: function() {
+				this.sizeRegion.show(new SideItemView());
 			}
 		});
 	});
