@@ -25,7 +25,6 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'rubocop'
   gem 'guard-rubocop'
-  gem 'pg'
   gem 'factory_girl_rails'
   gem 'childprocess'
   gem 'spring'
