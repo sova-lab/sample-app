@@ -67,6 +67,12 @@
             },
             {
               expand: true,
+              cwd: 'bower_components/bootstrap/dist/css/',
+              src:[ 'bootstrap.min.css' ],
+              dest: 'css/lib/'
+            },
+            {
+              expand: true,
               cwd: 'bower_components/bootstrap/dist/js/',
               src:[ 'bootstrap.min.js' ],
               dest: 'scripts/lib/'
