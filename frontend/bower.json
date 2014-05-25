@@ -1,0 +1,27 @@
+{
+  "name": "SovaSampleApp",
+  "version": "0.0.1",
+  "authors": [
+    "hakineko"
+  ],
+  "description": "サンプルアプリのライブラリ",
+  "main": "index.js",
+  "keywords": [
+    "SovaSampleApp"
+  ],
+  "license": "Aapache v2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "marionette": "~1.8.6",
+    "lodash": "~2.4.1",
+    "backbone.stickit": "~0.8.0",
+    "handlebars": "~1.3.0",
+    "bootstrap": "~3.1.1"
+  }
+}

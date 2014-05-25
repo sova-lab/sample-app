@@ -1,0 +1,39 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.1.1'
+
+# APIバージョン管理用
+gem 'versionist'
+
+# APIで返答されるjsonの加工用
+gem 'rabl'
+gem 'rabl-rails'
+gem 'oj'
+
+# メールアドレスのvalidation
+gem 'email_validator'
+
+
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
+
+group :development, :test do
+  gem 'guard'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'rubocop'
+  gem 'guard-rubocop'
+  gem 'pg'
+  gem 'factory_girl_rails'
+  gem 'childprocess'
+  gem 'spring'
+  gem 'guard-spring'
+  gem 'spring-commands-rspec'
+  gem 'database_cleaner'
+end
+
+group :production do
+  gem 'pg'
+end

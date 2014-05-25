@@ -1,0 +1,30 @@
+{
+  "name": "SovaSampleApp",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "matchdep": "*",
+    "grunt-contrib-handlebars": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-connect": "*",
+    "time-grunt": "*",
+    "grunt-contrib-livereload": "*",
+    "grunt-open": "*",
+    "grunt-csscomb": "*",
+    "css-parse": "*",
+    "grunt-combine-media-queries": "*",
+    "grunt-csso": "*",
+    "css-parse": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-template-jasmine-requirejs": "*",
+    "grunt-contrib-jasmine": "*"
+  },
+  "dependencies": {
+  }
+}
