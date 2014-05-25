@@ -96,10 +96,20 @@
           livereload: true,
           nospawn: true
         },
+        // html
+        html: {
+          files: ['html/.*/*.html', 'index.html'],
+          tasks: []
+        },
         // scss
         sass: {
           files: 'scss/*.scss',
           tasks: ['compass', 'cmq', 'csscomb']
+        },
+        // JavaScript
+        jslib: {
+          files: ['scripts/**/*.js', 'test/spec/**/*.js', 'Gruntfile.js'],
+          tasks: ['jshint', 'jasmine']
         },
         // Template
         templates: {
