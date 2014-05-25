@@ -64,6 +64,12 @@
               cwd: 'bower_components/jquery.validation/dist/',
               src:[ 'jquery.validate.min.js' ],
               dest: 'scripts/lib/'
+            },
+            {
+              expand: true,
+              cwd: 'bower_components/bootstrap/dist/js/',
+              src:[ 'bootstrap.min.js' ],
+              dest: 'scripts/lib/'
             }
           ]
         }
