@@ -31,7 +31,7 @@
             },
             {
               expand: true,
-              cwd: 'bower_components/backbone.babysitter/lib/amd/',
+              cwd: 'bower_components/backbone.babysitter/lib/',
               src:[ 'backbone.babysitter.min.js' ],
               dest: 'scripts/lib/'
             },
@@ -39,6 +39,18 @@
               expand: true,
               cwd: 'bower_components/marionette/lib/core/amd/',
               src:[ 'backbone.marionette.js' ],
+              dest: 'scripts/lib/'
+            },
+            {
+              expand: true,
+              cwd: 'bower_components/backbone.stickit/',
+              src:[ 'backbone.stickit.js' ],
+              dest: 'scripts/lib/'
+            },
+            {
+              expand: true,
+              cwd: 'bower_components/backbone/',
+              src:[ 'backbone.js' ],
               dest: 'scripts/lib/'
             },
             {
@@ -67,15 +79,21 @@
             },
             {
               expand: true,
-              cwd: 'bower_components/bootstrap/dist/css/',
-              src:[ 'bootstrap.min.css' ],
-              dest: 'css/lib/'
+              cwd: 'bower_components/requirejs/',
+              src:[ 'require.js' ],
+              dest: 'scripts/lib/'
             },
             {
               expand: true,
               cwd: 'bower_components/bootstrap/dist/js/',
               src:[ 'bootstrap.min.js' ],
               dest: 'scripts/lib/'
+            },
+            {
+              expand: true,
+              cwd: 'bower_components/bootstrap/dist/css/',
+              src:[ 'bootstrap.min.css' ],
+              dest: 'css/lib/'
             }
           ]
         }
