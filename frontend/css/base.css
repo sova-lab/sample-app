@@ -2,4 +2,21 @@ header {
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.side {
+  width: 26%;
+  padding: 2%;
+  border-right: 1px #aaa solid;
+  float: left;
+}
+.side .tweet-btn {
+  text-align: center;
+}
+
+.tweet {
+  margin-left: 30%;
+  width: 66%;
+  padding: 0 2%;
 }

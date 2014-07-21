@@ -14,20 +14,7 @@
 			attributes: function() {
 			},
 
-			ui: {
-				tweetBtn: '#tweetBtn',
-				tweetText: '#tweetText'
-			},
-
-			events: {
-				'click @ui.tweetBtn': 'doTweet'
-			},
-
-			template: JST['side/side'],
-
-			doTweet: function() {
-				document.href = '#hoge';
-			}
+			template: JST['tweet/item']
 		});
 	});
 })();
